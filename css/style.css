@@ -1,0 +1,75 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F2F2F2; /* Light gray background */
+    color: #000000; /* Black text color */
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333333; /* Dark gray background */
+    padding: 1rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition on hover */
+}
+
+.navbar:hover {
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+.navbar-dark .navbar-brand {
+    color: #FFFFFF; /* White text */
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    border-color: #FFFFFF; /* White border for the toggler icon */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFFFFF; /* White text */
+    padding: 0.5rem 1rem;
+    transition: color 0.3s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #CCCCCC; /* Light gray text on hover */
+}
+
+/* Main Content */
+.container {
+    margin-top: 80px;
+}
+
+.container h1 {
+    color: #333333; /* Dark gray heading color */
+}
+
+.container p {
+    color: #666666; /* Medium gray text color */
+}
+
+.container a.btn-primary {
+    background-color: #FF4500; /* Red-Orange button color */
+    border-color: #FF4500; /* Red-Orange border color */
+    color: #FFFFFF; /* White text on button */
+}
+
+.container a.btn-primary:hover {
+    background-color: #FF6347; /* Darker Red-Orange on hover */
+    border-color: #FF6347; /* Darker Red-Orange border on hover */
+    color: #FFFFFF; /* White text on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #333333; /* Dark gray background */
+    padding: 20px 0;
+    text-align: center;
+    color: #FFFFFF; /* White text color */
+}
